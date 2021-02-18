@@ -9,9 +9,9 @@
     <script src="Build/zombi.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/zombi.data.br",
-        frameworkUrl: "Build/zombi.framework.js.br",
-        codeUrl: "Build/zombi.wasm.br",
+        dataUrl: "Build/zombi.data",
+        frameworkUrl: "Build/zombi.framework.js",
+        codeUrl: "Build/zombi.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "topViewShooter",
